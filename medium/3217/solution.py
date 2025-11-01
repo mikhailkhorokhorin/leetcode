@@ -9,7 +9,7 @@ class ListNode:
 
 class Solution:
     def modifiedList(
-            self, nums: List[int], head: Optional[ListNode]
+        self, nums: List[int], head: Optional[ListNode]
     ) -> Optional[ListNode]:
         if head is None:
             return head
